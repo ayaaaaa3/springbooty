@@ -10,4 +10,4 @@ spec:
       - path:
         backend:
           serviceName: springboot-app
-            servicePort: 80
+          servicePort: 80
