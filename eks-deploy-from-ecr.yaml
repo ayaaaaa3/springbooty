@@ -18,7 +18,6 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
-# service type loadbalancer       
 ---
 apiVersion: v1
 kind: Service
@@ -33,10 +32,7 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 8085
- # type: LoadBalancer
-  selector:
-    app: springboot-app
-
+  ]
 #apiVersion: apps/v1
 #kind: Deployment
 #metadata:
