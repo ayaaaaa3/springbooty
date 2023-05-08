@@ -29,10 +29,10 @@ metadata:
 spec:
   ports:
   - name: http
-    port: 8085
+    port: 80
     protocol: TCP
     targetPort: 8085
-  #type: LoadBalancer
+   type: LoadBalancer
 
 #apiVersion: apps/v1
 #kind: Deployment
