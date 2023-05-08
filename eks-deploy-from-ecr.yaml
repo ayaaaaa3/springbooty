@@ -32,7 +32,7 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 8085
-   type: LoadBalancer
+  # type: LoadBalancer
 
 #apiVersion: apps/v1
 #kind: Deployment
